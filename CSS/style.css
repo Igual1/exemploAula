@@ -4,13 +4,23 @@
 }
 
 body{
-    color: black;
+    color: white;
+    background-image: url(../img/fundo.jpg);
+    
 }
 
 header{
+    box-shadow: -5px 4px 15px rgb(150,50,150);
     background-color:rgb(40, 0, 70);
     padding: 10px;
     align-items: center;
+}
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+font-size: large;
 }
 
 header ul{
@@ -18,6 +28,15 @@ header ul{
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(20,0,30,0.8), rgb(40,0,70,0.8), rgb(20,0,30,0.8));
 }
 
 footer{
@@ -27,4 +46,16 @@ footer{
     align-items: center;
     background-color: rgb(40, 0, 70);
     padding: 10px;
+    color: white;
+
+}
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato div{
+    display: flex;
+    flex-direction: row;
 }
