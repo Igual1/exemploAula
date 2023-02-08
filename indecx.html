@@ -21,39 +21,56 @@
 
     <main>
         <section id="Início">
-            <h1>Seja bem-vindo!</h1>
-            <p>Aqui você encontará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
+            <section id="Seja">
+                <h1>Seja bem-vindo!</h1>
+            </section>
+                <p>Aqui você encontará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
         </section>
 
         <section id="sobre">
-            <h2>Sobre o HTML5 semântico</h2>
-            <p>O HTML5 Semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos. </p>
+            <div>
+                <section id="Centro"><h2>Sobre o HTML5 semântico</h2></section>
+                <p>O HTML5 Semântico é uma evolução da linguagem HTML que permite aos desenvolvedores criar estruturas mais significativas e ricas em conteúdo para seus sites e aplicativos. </p>
+                <div class="image"><img src="./Img/kisspng-html-logo-canvas-element-javascript-murugan-5b293091bc4365.0988657615294260657711.png" alt="" width="150px" ></div>
+            </div>
         </section>
 
         <section id="linguagens">
-            <h2>Outras linguagens associadas</h2>
+        
+            <h2>Outras ferramentas</h2>
+        
             <ul>
                 <li>Hipertext Markup Language - HTML</li>
                 <li>Cascading Style Sheet - CSS</li>
                 <li>JavaScript - JS</li>
-            </ul>
+            </ul> 
+            
+            <img src="./Img/Simbolo.png" alt="" width="120px">
+            
+            
+
         </section>
+        
 
         <section id="contato">
+        <section id="Fale">
             <h2>Fale conosco</h2>
+        </section>
             <form>
                     <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" value="Digite seu Nome">
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
 
                     <label for="E-mail">E-mail:</label>
-                    <input type="text" name="E-mail" id="E-mail" value="Digite seu E-mail">
-
+                    <input type="text" name="E-mail" id="E-mail" placeholder="Digite seu E-mail" required>
+                
                     <label for="mensagem">Mensagem:</label>
                     <textarea name="mensagem" id="mensagem"></textarea>
+
                 <div>
                     <input type="checkbox" name="checkbox" id="checkbox">
-                    <label for="checkbox">Desejo receber informações sobre HTML5 por E-mail.</label>
+                    <label for="checkbox">Autorizo receber informações sobre HTML5 por E-mail.</label>
                 </div>
+                
                 <input id="buttom"  type="submit"   value="Enviar">
             </form>
         

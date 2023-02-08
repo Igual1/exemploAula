@@ -39,6 +39,16 @@ main{
     background-image: linear-gradient(to right, rgb(20,0,30,0.8), rgb(40,0,70,0.8), rgb(20,0,30,0.8));
 }
 
+#Seja{
+    text-align: center;
+    padding: 15px;
+}
+
+#Centro{
+    text-align: center;
+    
+}
+
 footer{
     display: flex;
     flex-direction: row;
@@ -47,6 +57,7 @@ footer{
     background-color: rgb(40, 0, 70);
     padding: 10px;
     color: white;
+    box-shadow: -5px 4px 15px rgb(150,50,150);
 
 }
 #contato form{
@@ -58,4 +69,75 @@ footer{
 #contato div{
     display: flex;
     flex-direction: row;
+    padding: 10px;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: -105px;
+}
+
+#linguagens img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: -55px;
+    filter: invert(100%);
+}
+
+#sobre p{
+    margin-left: -1%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    text-align: justify;
+    
+}
+
+#linguagens h2{
+    text-align: center;
+    padding: 15px;
+}
+
+#sobre{
+    background-color: rgb(40, 0, 70);
+    
+    box-shadow: -5px 4px 15px rgb(150,50,150);
+    padding: 20px;
+    width: 40%;
+}
+
+#Fale{
+    text-align: center;
+    padding: 15px;
+}
+
+#buttom{
+    background-color: forestgreen;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: -10px;
+    cursor: pointer;
+    transition: 0.3s;o
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #47a447;
+    padding: 4px;
+}
+
+#linguagens ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#Sobre:hover{
+    transition: 0.3s;
+    font-size: large;
+}
+#linguagens img{
+    margin-top: -19%;
 }
